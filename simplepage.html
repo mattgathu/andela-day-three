@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Andela Bootcamp</title>
+    <style>
+        html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Raleway, Helvetica, Avenir, Arial, sans-serif;
+  color: #909090;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.profile-name {
+  font-family: freight-sans-pro, Raleway, Helvetica;
+}
+
+
+.main-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* Colors Guide
+    red:    #F40000
+    gray:   #909090
+    blue:   #007af4;
+*/
+
+.avatar {
+  background-color: #007af4;
+  border-radius: 100%;
+  height: 110px;
+  width: 110px;
+  display: block;
+  left: -100px;
+  bottom: 87px;
+  margin: 0 auto;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+  -webkit-font-smoothing: antialiased;
+
+}
+
+p {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.image {
+  background-color: #007af4;
+  border-radius: 100%;
+  height: 400px;
+  width: 400px;
+  display: block;
+  left: -100px;
+  bottom: 87px;
+  margin: 0 auto;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+  -webkit-font-smoothing: antialiased;
+
+}
+
+.avatar a {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 4px solid #fff;
+  text-indent: -9999px;
+  border-radius: 100%;
+  background-size: 100%;
+  top: 5px;
+  margin: 0 auto;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* Main Header */
+
+
+
+.main-header {
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-left: 10px;
+  position: relative;
+  width: 570px;
+  max-width: 100%;
+  text-align: center;
+  display: block;
+}
+
+
+
+.main-header .profile-links {
+  margin-bottom: 137px;
+}
+
+.profile-name {
+  line-height: 28px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #007af4;
+  height: 45px;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 900;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.profile-name:visited {
+  color: #007af4;
+}
+
+.subtitle {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.profile-links {
+  line-height: 18px;
+}
+
+.profile-links > li {
+  display: inline-block;
+  height: 33px;
+  line-height: 18px;
+  color: #020202;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.profile-links span {
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border: 3px solid rgba(144,144,144, .4);
+  padding: 5px 14px;
+}
+
+.profile-links > li:hover span {
+  background-color: #FF4081;
+  color: #fff;
+}
+
+.profile-links > li .a {
+  line-height: 45px;]
+}
+
+.profile-links > li span {
+  background-color: #303F9f;
+}
+
+.highlight pre code {
+	background: none;
+	border: none;
+}
+
+.day-one {
+    background-color: #3F51B5;
+}
+.day-two {
+    background-color: #C5CAE9;
+}
+.day-three {
+    background-color: #303F9f;
+}
+        .day-four {
+    background-color: royalblue;
+}
+        .top-header {
+            background-color: #303F9f;
+        }
+    </style>
+</head>
+ <body style="zoom: 1;">
+    <div class="main-container main-view top-header">
+
+      <div class="header-container">
+        <header class="main-header">
+          <figure class="avatar">
+            <a href="#"
+            style="background-image: url('data:image/jpeg;base64,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');">Profile Picture</a>
+          </figure>
+          <h2 class="profile-name">
+            <a href="">Andela Boot Camp</a>
+          </h2>
+          <h2 class="subtitle">Matt Gathu</h2>
+          <ul class="profile-links">
+            <li>
+              <a href="#dayone">
+                <span>Day One</span>
+              </a>
+            </li>
+            <li>
+              <a href="#daytwo">
+                <span>Day Two</span>
+              </a>
+            </li>
+            <li>
+              <a href="#daythree">
+                <span>Day Three</span>
+              </a>
+            </li>
+            <li>
+              <a href="#dayfour">
+                <span>Day Four</span>
+              </a>
+            </li>
+
+          </ul>
+         <a href="#dayone"><button class="button"> Proceed </button></a>
+
+        </header>
+
+
+      </div>
+      </div>
+
+     <div class="main-container day-one">
+
+      <div class="header-container">
+
+         <header class="main-header day-one">
+             <article class="article">
+                  <h1><a name="dayone">Day One</a></h1>
+                  <img class="image" src="images/journey.jpg" />
+                  <p><strong>
+                     First day of the boot camp was amazing.
+                 </strong></p>
+                 <p><strong>
+                     This where the journey begins!! It was a day full of learning, meeting amazing people and
+                     discovering values and expectations for one to be successful.
+                 </strong></p>
+            </article>
+        </header>
+      </div>
+      </div>
+ <div class="main-container day-two">
+
+      <div class="header-container">
+
+
+         <header class="main-header day-two">
+             <article class="article">
+                  <h1><a name="daytwo">Day Two</a></h1>
+                 <img class="image" src="images/code.jpg" />
+                  <p><strong>
+                    Fast paced learning, tight deadlines and challenging problems all morphed into a great human
+                      experience of collaboration, friendship, love and passion for success. This is Andela!!
+                 </strong></p>
+                 <p><strong>
+                     The Andela Boot camp is like no other and nothing quite prepares you for it. My second day was
+                     one with beautiful conversations, answer seeking, mentorship and sheer test of perseverance and commitment.
+                     It has been one full of joy, love and great collaboration.
+                 </strong></p>
+            </article>
+        </header>
+
+      </div>
+      </div>
+
+  <div class="main-container day-three">
+      <div class="header-container">
+         <header class="main-header day-three">
+             <article class="article">
+                  <h1><a name="daythree">Day Three</a></h1>
+                    <img class="image" src="images/me.jpeg" />
+                 <p><strong>
+                     I had the chance to build a simple command line application on top a public
+                     application programming interface (API). I built a python program that displays
+                     recent GitHub events of a user and in the process I had a mind blowing revelation
+                     on the power of collaboration.
+                 </strong></p>
+
+                  <p><strong>
+                     The fact that I did not need to build my own GitHub for my application, but utilized already
+                      existing services using an API protocol really blew me away. I quickly realized how amazing
+                      it is that one can achieve the dreams without breaking a sweat thanks to the efforts of other
+                      people who came before. That’s the power of collaboration!!
+                 </strong></p>
+
+            </article>
+        </header>
+      </div>
+      </div>
+ <div class="main-container day-four">
+
+      <div class="header-container">
+
+
+         <header class="main-header day-four">
+             <article class="article">
+                  <h1><a name="dayfour">Day Four</a></h1>
+                 <img class="image" src="images/journal.jpg" />
+                  <p><strong>
+                     I had the chance to build a simple command line application on top a public
+                     application programming interface (API). I built a python program that displays
+                     recent GitHub events of a user and in the process I had a mind blowing revelation
+                     on the power of collaboration.
+                 </strong></p>
+                 <p class="heading"><strong>
+                     Thank you for Reading!!
+                 </strong></p>
+            </article>
+        </header>
+
+      </div>
+      </div>
+</body>
+</html>
