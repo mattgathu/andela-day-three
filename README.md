@@ -37,7 +37,7 @@ for web applications, and user interfaces for many mobile applications
 
 # Previewing the page
 
-The html page can be previewed [here]()
+The html page can be previewed [here](http://htmlpreview.github.io/?https://github.com/mattgathu/andela-day-three/blob/master/simplepage.html)
 
 
 
