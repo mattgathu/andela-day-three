@@ -5,6 +5,8 @@
 
 A simple single page built solely with [HTML](https://en.wikipedia.org/wiki/HTML) and [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
+You can view it [here](http://htmlpreview.github.io/?https://github.com/mattgathu/andela-day-three/blob/master/simplepage.html)
+
 ### HyperText Markup Language
 
 HyperText Markup Language (HTML) is the standard markup language for 
@@ -57,4 +59,6 @@ This project is licensed under the MIT License.
 ## References
 ---
 
-* [Github API Docs](https://developer.github.com/v3/)
+* [HTML](https://en.wikipedia.org/wiki/HTML) 
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [Google Material Design](https://material.io/guidelines/style/color.html)
